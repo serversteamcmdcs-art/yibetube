@@ -9,5 +9,10 @@ export default defineConfig({
 	server: {
 		port: 3000,
         host: true, 
+	 allowedHosts: [
+       BLOCKED_HOST, // The specific host from the error message
+       'localhost',  // Always good practice
+       '127.0.0.1'   // Also a good idea
+    ]
 	}
 });
