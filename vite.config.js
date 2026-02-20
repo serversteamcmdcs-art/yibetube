@@ -6,6 +6,5 @@ export default defineConfig({
     strictPort: false,
     host: true,
     allowedHosts: ['vibetube.p7z.ru', 'localhost', 'vibetube.c6t.ru']
-    cors: true // опционально: разрешить кросс‑доменные запросы
   }
 });
