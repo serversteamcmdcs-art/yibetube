@@ -5,7 +5,8 @@ vite: {
   // start here
   server: {
     allowedHosts: [
-      'web.example.test',
+      'vibetube.p7z.ru',
+      'vibetube.c6t.ru',
     ]
   }
 }
