@@ -7,7 +7,9 @@ const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 5173;
 export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
-    host: true,
-		port: 5000,
+     allowedHosts: [
+      'localhost',  // Always good practice
+      '127.0.0.1'   // Also a good idea
+    ]
 	}
 });
